@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="layout.css" rel="stylesheet" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <form class="form-layout" method="post">
+      <fieldset class="form">
+        <legend class="legend">Add User</legend>
+
+        <div class="input-container">
+          <label class="input-label" for="firstName">First Name</label>
+          <input
+            class="input-field"
+            type="text"
+            id="firstName"
+            name="first_name"
+          />
+        </div>
+
+        <div class="input-container">
+          <label class="input-label" for="lastName">Last Name</label>
+          <input
+            class="input-field"
+            type="text"
+            id="lastName"
+            name="last_name"
+          />
+        </div>
+
+        <div class="input-container">
+          <label class="input-label" for="email">Email:</label>
+          <input class="input-field" type="text" id="email" name="email" />
+        </div>
+
+        <div class="date-role-container">
+          <div class="role-container">
+            <label for="role">Role:</label>
+            <select class="role-input" id="role" name="role">
+              <option value="student">Student</option>
+              <option value="teacher">Teacher</option>
+              <option value="guest">Guest</option>
+            </select>
+          </div>
+
+          <div class="date-container">
+            <label for="date">Current Date:</label>
+            <input type="date" id="date" />
+          </div>
+        </div>
+
+        <div class="favorite-language-container">
+          <p class="question">Choose your favorite programming language:</p>
+          <div class="radio-container">
+            <label for="html">HTML</label>
+            <input checked type="radio" id="html" name="html" value="html" />
+            <label for="css">CSS</label>
+            <input type="radio" id="css" name="css" value="css" />
+            <label for="javascript">Javascript</label>
+            <input
+              type="radio"
+              id="javascript"
+              name="javascript"
+              value="javascript"
+            />
+          </div>
+        </div>
+
+        <div class="comments-container">
+          <label class="comment-label" for="comments">Comments:</label>
+          <textarea
+            class="comment-box"
+            id="comments"
+            name="comments"
+          ></textarea>
+        </div>
+
+        <div class="terms-container">
+          <label class="terms-label" for="newsletter">Sign up for news</label>
+          <input type="checkbox" id="newsletter" />
+          <label class="terms-label" for="terms">Agree to terms</label>
+          <input type="checkbox" id="newsletter" />
+        </div>
+
+        <div class="submit-container">
+          <button class="submit-btn" type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

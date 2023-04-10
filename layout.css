@@ -1,0 +1,110 @@
+.form-layout {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.form {
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.legend {
+  border: 1px solid black;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-label {
+  flex-wrap: nowrap;
+}
+.input-field {
+  width: 60%;
+}
+
+.date-role-container {
+  display: flex;
+  justify-content: center;
+}
+
+.role-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.role-label {
+  display: inline-flex;
+}
+
+.role-input {
+  display: inline-flex;
+}
+
+.date-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.favorite-language-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  align-self: center;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+}
+
+.comments-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment-box {
+  width: 60%;
+}
+
+.comment-label {
+  margin-top: 6px;
+  align-self: center;
+  width: 50%;
+}
+
+.terms-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-label {
+  width: 50px;
+}
+
+.submit-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit-btn {
+  width: 50px;
+  margin-top: 8px;
+}
